@@ -1,0 +1,22 @@
+#video1 {
+
+    display: block;
+
+}
+
+.btn{
+    margin-top: 10px;
+    float: left;
+    border: none;
+    background-color: grey;
+    color: aliceblue;
+    padding: 15px;
+}
+
+.btn:hover{
+
+    background-color: aquamarine;
+    color: blue;
+    cursor: pointer;
+}
+

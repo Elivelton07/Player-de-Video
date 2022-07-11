@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="_css/style.css">
+   
+    <title>Player de vídeo</title>
+</head>
+
+<body>
+
+
+    <div class="myplayer">
+
+        <video id="video1" width="550">
+            <source src="_media/Pexels Videos 3995.mp4" type="video/mp4">
+
+            Your browser does not support HTML video.
+        </video>
+
+        <button class="btn" onclick="playPause()">Play/Pause</button>
+        <button class="btn" onclick="makeBig()">Grande</button>
+        <button class="btn" onclick="makeSmall()">Pequeno</button>
+        <button class="btn" onclick="makeNormal()">Normal</button>
+        <button class="btn" onclick="fullscreen()">Tela cheia</button>
+        <button class="btn" onclick="volumeUp()">+</button>
+        <button class="btn" onclick="volumeDown()">-</button>
+        <button class="btn" onclick="mute()">Mudo</button>
+
+
+    </div>
+
+    <script src="_javascript/player.js"></script>
+
+</body>
+
+</html>
